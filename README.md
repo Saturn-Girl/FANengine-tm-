@@ -1,7 +1,35 @@
 # FANengine™
-FANengine™ is proprietary software by Saturn Computing.
-Source code is provided for educational and inspection purposes only.
-You may not redistribute, modify, or use this software in your own projects
-without written permission from Saturn Computing.
 
-© 2025 Saturn Computing. All rights reserved.
+**FANengine™** is a proprietary but source-available game engine developed by **Saturn Computing Topic**.
+
+---
+
+## 🧩 How to Use
+
+```python
+import FANengine
+```
+
+
+example seting it up
+```python
+import FANengine
+
+FANengine.Init()
+FANengine.Run()
+```
+example loading an model
+```python
+import FANengine
+
+FANengine.Init()
+LoadModel("MyModel.obj")
+FANengine.Run()
+```
+example loading music
+```python
+import FANengine
+FANengine.Init()
+FANengine.PlaySound('assets/music/theme.ogg', loop=True, volume=0.5)
+FANengine.Run()
+```
