@@ -1,6 +1,6 @@
 # FANengine™
 
-**FANengine™** is a proprietary but source-available game engine developed by **Saturn Computing Topic**.
+**FANengine™** is a proprietary but source-available game engine for 3DS MAX developed by **Saturn Computing Topic**.
 
 ---
 
